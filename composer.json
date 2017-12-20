@@ -1,0 +1,21 @@
+{
+    "name": "exercices",
+    "authors": [
+        {
+            "name": "Olivier",
+            "email": "olivier.chemla@devinci.fr"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "php": ">=7.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Strings\\": "src/"
+      }
+    }
+}
