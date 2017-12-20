@@ -22,5 +22,14 @@ class Str{
     $this->assertSame(Str::toCamelCase('my string'), 'myString'); // true
     $this->assertSame(Str::toCamelCase('My String'), 'myString'); // true
   }
+  // Workshop Exercice 3
+  public function testExo3()
+  {
+    $this->assertSame(Str::toSnakeCase('my_string'), 'my_string'); // true
+    $this->assertSame(Str::toSnakeCase('myString'), 'my_string'); // true
+    $this->assertSame(Str::toSnakeCase('my-string'), 'my_string'); // true
+    $this->assertSame(Str::toSnakeCase('my string'), 'my_string'); // true
+    $this->assertSame(Str::toSnakeCase('My String'), 'my_string'); // true
+  }
 
 }
